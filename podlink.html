@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects // MT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <!--    Favicons-->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+    <link rel="stylesheet" href="/unslider.css">
+    <link rel="stylesheet" href="/unslider-dots.css">
+</head>
+
+<body id="projects_content">
+    <input type="checkbox" name="menu" value="toggle" id="toggle">
+    <section id="menu">
+        <label for="toggle" class="toggle">☰</label>
+        <nav class="menuContent">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About me</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="group section">
+        <h1>PodLink // 2016</h1>
+    </div>
+    <div class="group section telephony">
+        <div class="col span_3_of_6">
+            <div class="gallery">
+                <ul>
+                   <li><img src="images/podlink3.jpg" alt=""></li>
+                    <li><img src="/images/podlink1.jpg" alt=""></li>
+                    <li><img src="/images/podlink2.jpg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col span_2_of_6">
+
+<p>Having went through a seemingly never ending cycle of iterations and refinements to my team’s initial idea of an affordable top-up kiosk and ending up creating a futuristic bus stop concept, I can say that throughout the process we constantly kept bouncing between concepts, therefore losing focus of what was important at a given moment. I, however, believe that without going through such a seemingly unnecessary complex process, we wouldn’t have been able to narrow the project’s scope down and come up with this simple, yet effective idea - a transparent multi-touch display.</p>
+
+<p>Due natively transparent touch displays being either unavailable for sale or expensive, my team has decided to take a different route and demonstrate the display through other available technologies, such as enabling a simple piece of acrylic to become a touch display through addition of infra-red LEDs, blob tracking and rear projection, which, together, is called an FTIR method.</p>
+
+<p>Throughout the later stages of the project our scope has gradually shifted from being focused on a bus stop itself to its transparent walls. It’s interesting how the actual bus stop design doesn’t matter as much, but the actual technology going into it does. A person can draft as many bus stop designs as they want, yet it can never replace its potential insides contents and a beautiful  streamlined interface.</p>
+<video  src="images/PodlinkMP4.mp4" autoplay loop muted></video>
+<p>What's on the inside you might ask? First of all, all of the software being used is open-source, which introduces a whole set of issues, such as consistent program crashes and freezes. Secondly, the tiny frame is packed full of infrared LEDs, yet on the outside it looks like a simple wooden frame.</p>
+
+<p>Researching existing bus stop designs my team has discovered that most of them consist only of a picture and a few lines of text, there are, however, only a few concepts extensively covering most design aspects. I can’t help but wonder if people behind those designs have chosen the right direction - providing only a visual design without giving any clues as to how the project operates on the inside. My team has chosen a different direction, disregarded the traditional design part almost entirely and instead focused on feasibility research.</p>
+
+            <p><a href="http://matveycolab.tumblr.com/tagged/studio3" target="_blank"><i>Blog Documentation</i></a> // <a href="http://matveycolab.tumblr.com/post/145922677852/transparent-multi-touch-display-reflective#145922677852" target="_blank"><i>Reflective Statement</i></a></p>
+        </div>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="//stephband.info/jquery.event.move/js/jquery.event.move.js"></script>
+    <script src="//stephband.info/jquery.event.swipe/js/jquery.event.swipe.js"></script>
+    <script src="/unslider.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.gallery').unslider({
+                arrows: false
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -2,84 +2,78 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Matthew, Tarchutkin, Matthew Tarchutkin, Matvey, Matvey Tarchutkin, portfolio, gallery, website, online portfolio, personal, personal portfolio, personal online portfolio, portfolio website, personal website">
-    <meta name="description" content="Matthew Tarchutkin, a personal portfolio">
-    <meta name="author" content="Matthew Tarchutkin">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js">         </script>
-    <![endif]-->
-    <title>About me</title>
-    <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
-    <link rel="stylesheet" href="CSS/normalize.css">
-    <link rel="stylesheet" href="main.css">
-    <!--    Font-->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+    <title>About me // MT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+
     <!--    Favicons-->
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/Favicons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/Favicons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/Favicons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/Favicons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/Favicons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/Favicons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/Favicons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/Favicons/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="images/Favicons/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="images/Favicons/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="images/Favicons/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="images/Favicons/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="images/Favicons/favicon-128.png" sizes="128x128" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-128.png" sizes="128x128" />
     <meta name="application-name" content="&nbsp;" />
     <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="images/Favicons/mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="images/Favicons/mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="images/Favicons/mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="images/Favicons/mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="images/Favicons/mstile-310x310.png" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
 </head>
 
-<body>
-    <nav>
-        <div class="logo">
-            <a href="index.html"><img src="images/top%20triangle.png" alt="Logo, light blue triangle pointing down">
-            </a>
-        </div>
-        <div class="menu col-12">
+<body id="about_type">
+    <input type="checkbox" name="menu" value="toggle" id="toggle">
+    <section id="menu">
+        <label for="toggle" class="toggle">☰</label>
+        <nav class="menuContent">
             <ul>
-                <li class="actmenu"><h1><a href="about.html">About</a></h1>
-                </li>
-                <li><h1><a href="projects.html">Projects</a></h1>
-                </li>
-                <li><h1><a href="photos.html">Photography</a></h1>
-                </li>
-                <li><h1><a href="contact.html">Let's Connect</a></h1>
-                </li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About me</a></li>
+                <li><a href="/projects.html">Projects</a></li>
             </ul>
-        </div>
-    </nav>
-    <section>
-        <div class="col-4">
-            <img id="me" src="images/me.png" srcset="images/me.png 1x, images/me@1.5x.png 1.5x, images/me@2x.png 2x" alt="My photo">
-        </div>
-        <div class="col-8" id="descp">
-            <p>What's up? I'm Matvey (Matthew) Tarchutkin, an 18 y.o. Russian aspiring designer and web-developer, shower philosopher and an all-round guy, who is interested in lots of things and tries out everything he could lay his hands on. Why specialize in one thing when you can know a bit of everything?</p>
-
-<p>Currently studying Bachelor of Creative Technologies (BCT) at the Auckland University of Technologies (AUT) and loving every minute of it. Having always been interested in design I've never studied it formally, until now; and it's not just design that interests me: I'm pretty passionate about modern technologies, the Web, music, traveling, sustainable living and self-education, also have interests in fitness, philosophy and pharmacology. I see myself mixing all of that in my future works, somehow, don't even know if it's possible yet.</p>
-
-<p>Since moving half across the world last year to New Zealand I've had experiences I'll never forget, acquired skills I never thought I would and met a ridiculous amount of most interesting people. Completely changing everything in your life is totally worth it, really.</p>
-
-<p>Alright, so my biggest influence is dream-pop and shoegaze music with it's cloudy textures, hazy ethereal sounds and pastel colours (hence the site's palette). But I try getting it from everywhere I can, as any artist should really.</p>
-
-<p>And I like tea.</p>
-
-        </div>
+        </nav>
     </section>
-    <footer>
-        <div class="logo2">
-            <img src="images/bottom%20triangle.png" alt="Pink logo, points up">
+    <div class="section group" id="about_title">
+        <h1>About me</h1>
+        <img id="about_hidden_pic" src="/images/me.png" alt="A picture of me, black and white, standing near a sakura tree">
+    </div>
+    <div class="section group" id="about_description">
+        <div class="col span_2_of_6">
+            <p>Matvey (Matt), 19, a Russian guy living in Auckland, NZ, studying towards the Bachelor of Creative Technologies.
+                <br> Enjoy designing and developing all sorts of stuff, reading, cycling and yoga, among other things. I never spend a day without learning something new.</p>
+            <h2>What I do</h2>
+            <h3>UX / UI</h3>
+            <p>Websites, installations, business cards, product designs and various misc. graphics.</p>
+            <h3>Project Managment</h3>
+            <p>Have extensive experience in pitching ideas, planning, implementing and then delivering them. Great team communication / management skills through various University projects.</p>
+            <h3>Web-design</h3>
+            <p>Started doing it for fun, learned a lot in the process, still learning.</p>
+            <h3>Research / Analysis</h3>
+            <p>Developing a great project is impossible without extensive research into a given topic.</p>
         </div>
-    </footer>
+        <div class="col span_1_of_6">
+        </div>
+        <div class="col span_3_of_6" id="about_picture">
+            <img src="/images/me.png" alt="A picture of me, black and white, standing near a sakura tree">
+            <div>
+                <h2>Currently learning</h2>
+                <h3>Web-development</h3>
+                <p>JavaScript / Ruby / PHP</p>
+                <h3>Drawing / Sketching</h3>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

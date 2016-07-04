@@ -2,104 +2,71 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="Matthew, Tarchutkin, Matthew Tarchutkin, Matvey, Matvey Tarchutkin, portfolio, gallery, website, online portfolio, personal, personal portfolio, personal online portfolio, portfolio website, personal website">
-    <meta name="description" content="Matthew Tarchutkin, a personal portfolio">
-    <meta name="author" content="Matthew Tarchutkin">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js">         </script>
-    <![endif]-->
-    <title>Projects - Infinity box</title>
-    <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
-    <link rel="stylesheet" href="CSS/normalize.css">
-    <link rel="stylesheet" href="main.css">
-    <!--    Font-->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+    <title>Projects // MT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+
     <!--    Favicons-->
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/Favicons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/Favicons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/Favicons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/Favicons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/Favicons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/Favicons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/Favicons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/Favicons/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="images/Favicons/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="images/Favicons/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="images/Favicons/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="images/Favicons/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="images/Favicons/favicon-128.png" sizes="128x128" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/images/favicons/favicon-128.png" sizes="128x128" />
     <meta name="application-name" content="&nbsp;" />
     <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="images/Favicons/mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="images/Favicons/mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="images/Favicons/mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="images/Favicons/mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="images/Favicons/mstile-310x310.png" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 </head>
 
-<body>
-    <nav>
-        <div class="logo">
-            <a href="index.html"><img src="images/top%20triangle.png" alt="Logo, light blue triangle pointing down">
-            </a>
-        </div>
-        <div class="menu col-12">
+<body id="projects_content">
+    <input type="checkbox" name="menu" value="toggle" id="toggle">
+    <section id="menu">
+        <label for="toggle" class="toggle">☰</label>
+        <nav class="menuContent">
             <ul>
-                <li><h1><a href="about.html">About</a></h1>
-                </li>
-                <li class="actmenu"><h1><a href="projects.html">Projects</a></h1>
-                </li>
-                <li><h1><a href="photos.html">Photography</a></h1>
-                </li>
-                <li><h1><a href="contact.html">Let's Connect</a></h1>
-                </li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About me</a></li>
+                <li><a href="/projects.html">Projects</a></li>
             </ul>
-        </div>
-    </nav>
-    <section>
-        <div class="col-3 pink">
-            <div class="projects">
-                <a href="projects.html">
-                    <p>Infinity box</p>
-                </a>
-                <a href="proj_mirrorsuit.html">
-                    <p>Mirror suite</p>
-                </a>
-                <a href="proj_hipster.html">
-                    <p>Hipster ball</p>
-                </a>
-            </div>
-            <div class="archive">
-                <p class="archive1">Archive:</p>
-                <a href="http://matveycolab.tumblr.com/tagged/lineracer" target="_blank">
-                    <p>Line Racer</p>
-                </a>
-                <a href="http://matveycolab.tumblr.com/tagged/ablueprint" target="_blank">
-                    <p>A blueprint of something never finished</p>
-                </a>
-                <a href="http://matveycolab.tumblr.com/tagged/modern-dreamers" target="_blank">
-                            <p>Modern dreamers</p>
-                        </a>
-            </div>
-        </div>
-        <div class="col-9 projdescp">
-            <p><img src="images/box.jpg" alt="box"> A box with mirrors and tin-foil inside. Accompanied by headphones with a soundtrack and a LED head-band. The idea is to make people experience infinity inside of a closed space and some kind of disorientation. <br><br>Dead simple.
-                <br>
-                <br> <a href="http://matveycolab.tumblr.com/tagged/vernissage" target="_blank">Explore more here</a>
-            </p>
-
-        </div>
+        </nav>
     </section>
-    <footer>
-        <div class="col-3 pinkfix">
-            &nbsp;<br> &nbsp;<br> &nbsp;<br>&nbsp; <br> &nbsp;<br>&nbsp; <br> &nbsp;<br>&nbsp; <br> &nbsp;<br>&nbsp; <br> &nbsp;<br>&nbsp; <br> &nbsp;<br>&nbsp;
+    <div class="group section">
+        <div class="col span_6_of_6">
+            <h1>Projects</h1>
+            <div id="project_list">
+                <div>
+                    <a href="podlink.html"><img src="/images/podlink.png" alt=""></a>
+                    <h3>PodLink</h3>
+                </div>
+                   <div>
+                    <a href="telephony.html"><img src="/images/telephony.jpeg" alt=""></a>
+                    <h3>Telephony</h3>
+                </div>
+                <div>
+                    <a href="line_racer.html"><img src="/images/line_racer.jpg" alt=""></a>
+                    <h3>Line Racer</h3>
+                </div>
+                <div>
+                    <a href="in_vertigo.html"><img src="/images/in_vertigo.jpg" alt=""></a>
+                    <h3>In Vertigo</h3>
+                </div>
+            </div>
         </div>
-        <div class="logo2">
-            <img src="images/bottom%20triangle.png" alt="Pink logo, points up">
-        </div>
-    </footer>
+    </div>
+
 </body>
 
 </html>

@@ -11,7 +11,7 @@
 <style>
     html {
         font-family: 'Roboto Slab', serif;
-        font-size: 40px;
+        font-size: 35px;
         color: #0b0b0b;
     }
 
@@ -30,12 +30,13 @@
         text-align: center;
         position: absolute;
         left: 50%;
-        top: 55%;
+        top: 53%;
         width: 700px;
         margin-left: -350px;
     }
 
     .siteNav-social {
+        opacity: 0;
         list-style: none;
         margin: 1rem auto;
         padding: 0
@@ -97,12 +98,12 @@
 </html>
 
 <script>
-    var intro = "Hi, I'm Matt. \n \n " + "<br>" + "My portfolio is under construction at the moment, \n \n but feel free to check me out on these websites:";
-    var intro_indexed = intro.split(" ");
+    var intro = "Hi, I'm Matt. \n \n My portfolio is under construction at the moment, \n \n but feel free to check me out on these websites:";
+    var intro_indexed = intro.split("");
     console.log(intro_indexed.length);
 
     var showIcons = function () {
-        $('.siteNav-social').show(100).animate(5000);
+        $('.siteNav-social').show().animate({opacity: 1}, 1200);
     };
 
     var hideIcons = function () {
@@ -111,7 +112,7 @@
 
     var showText = function (target, message, index, interval) {
         if (index<message.length) {
-            $(target).append(message[index++] + " ");
+            $(target).append(message[index++]);
             setTimeout(function () {
                 showText(target, message, index, interval);
             }, interval);
@@ -123,8 +124,8 @@
 
 
     $(function () {
-        hideIcons();
-        showText("#intro", intro_indexed, 0, 10);
+//        hideIcons();
+        showText("#intro", intro_indexed, 0, 30);
 
     });
 

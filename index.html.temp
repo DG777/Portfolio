@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects // MT</title>
+    <title>Home // MT</title>
     <link rel="stylesheet" href="styles.css">
     <script src="main.js"></script>
 
@@ -31,35 +31,34 @@
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 </head>
 
-<body id="projects_content">
-    <input type="checkbox" name="menu" value="toggle" id="toggle">
-    <section id="menu">
-        <label for="toggle" class="toggle">☰</label>
-        <nav class="menuContent">
-            <ul>
-                <li><a href="/index.html.temp">Home</a></li>
-                <li><a href="/about.html">About me</a></li>
-                <li><a href="/projects.html">Projects</a></li>
-            </ul>
-        </nav>
+<body id="index_background">
+  <img src="images/index_background.jpg" id="bg" alt="">
+   <input type="checkbox" name="menu" value="toggle" id="toggle">
+   <section id="menu">
+       <label for="toggle" class="toggle">☰</label>
+       <nav class="menuContent">
+           <ul>
+               <li><a href="/index.html">Home</a></li>
+               <li><a href="/about.html">About me</a></li>
+               <li><a href="/projects.html">Projects</a></li>
+           </ul>
+       </nav>
     </section>
-    <div class="group section">
-        <h1>In Vertigo // 2015</h1>
-    </div>
-    <div class="group section in_vertigo">
+    <div class="section group" id="index_name">
         <div class="col span_3_of_6">
-            <br>
-            <div class="video_wrapper video_wrapper1">
-                <iframe width="560" height="475" src="https://www.youtube.com/embed/-3-v9uwfDwI?rel=0&showinfo=0&autohide=1" frameborder="0" allowfullscreen></iframe>
+            <h1>Matvey<br>Tarchutkin</h1>
+            <h3>I Design, Code &amp; <br> Make things work</h3>
+        </div>
+        <div class="col span_3_of_6">
+            <div id="index_social">
+                <a href="https://www.linkedin.com/in/matveytn" target="_blank"><img src="images/linkedin.png" alt=""></a>
+                <a href="http://matveycolab.tumblr.com/" target="_blank"><img src="/images/tumblr.png" alt=""></a>
+                <a href="http://twitter.com/matveytn" target="_blank"><img src="/images/twitter.png" alt=""></a>
+                <a href="https://www.behance.net/dg777" target="_blank"><img src="/images/behance.png" alt=""></a>
+                <a href="https://github.com/DG777" target="_blank"><img src="/images/github.png" alt=""></a>
             </div>
         </div>
-        <div class="col span_2_of_6">
-            <p>Exploration of a sensation (vertigo), associated with whirling and loss of balance through a performance and projection of one-point perspective videos on a person, wearing suit of shattered glass.</p>
-
-            <a href="http://matveycolab.tumblr.com/tagged/mirror-suit" target="_blank"><i>Documentation</i></a>
-        </div>
     </div>
-
 </body>
 
 </html>

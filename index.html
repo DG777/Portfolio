@@ -1,64 +1,137 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home // MT</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="main.js"></script>
-
-    <!--    Favicons-->
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="/images/favicons/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="/images/favicons/favicon-128.png" sizes="128x128" />
-    <meta name="application-name" content="&nbsp;" />
-    <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <meta charset="UTF-8">
+    <title>024</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
+            integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:700' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
+<style>
+    html {
+        font-family: 'Roboto Slab', serif;
+        font-size: 40px;
+        color: #0b0b0b;
+    }
 
-<body id="index_background">
-  <img src="images/index_background.jpg" id="bg" alt="">
-   <input type="checkbox" name="menu" value="toggle" id="toggle">
-   <section id="menu">
-       <label for="toggle" class="toggle">☰</label>
-       <nav class="menuContent">
-           <ul>
-               <li><a href="/index.html">Home</a></li>
-               <li><a href="/about.html">About me</a></li>
-               <li><a href="/projects.html">Projects</a></li>
-           </ul>
-       </nav>
-    </section>
-    <div class="section group" id="index_name">
-        <div class="col span_3_of_6">
-            <h1>Matvey<br>Tarchutkin</h1>
-            <h3>I Design, Code &amp; <br> Make things work</h3>
-        </div>
-        <div class="col span_3_of_6">
-            <div id="index_social">
-                <a href="https://www.linkedin.com/in/matveytn" target="_blank"><img src="images/linkedin.png" alt=""></a>
-                <a href="http://matveycolab.tumblr.com/" target="_blank"><img src="/images/tumblr.png" alt=""></a>
-                <a href="http://twitter.com/matveytn" target="_blank"><img src="/images/twitter.png" alt=""></a>
-                <a href="https://www.behance.net/dg777" target="_blank"><img src="/images/behance.png" alt=""></a>
-                <a href="https://github.com/DG777" target="_blank"><img src="/images/github.png" alt=""></a>
-            </div>
-        </div>
-    </div>
+    #intro {
+        width: 400px;
+        height: 600px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -200px;
+        margin-top: -300px;
+    }
+
+    .siteNav {
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        width: 700px;
+        margin-left: -350px;
+    }
+
+    .siteNav-social {
+        list-style: none;
+        margin: 1rem auto;
+        padding: 0
+    }
+
+    .siteNav-social > li {
+        display: inline-block;
+        margin: 0 .5rem
+    }
+
+    .fa {
+        font-size: 60px;
+        color: #000;
+    }
+</style>
+<body>
+<div id="intro"></div>
+<div class="siteNav">
+    <ul class="siteNav-social">
+        <li>
+            <a href="https://www.facebook.com/matveytn">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/matveytn">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://nz.linkedin.com/in/matveytn">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/DG777">
+                <i class="fa fa-github"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://stackoverflow.com/users/5295787/dg777">
+                <i class="fa fa-stack-overflow"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.behance.net/dg777">
+                <i class="fa fa-behance"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/matveytn/">
+                <i class="fa fa-instagram"></i>
+            </a>
+        </li>
+    </ul>
+</div>
 </body>
 
 </html>
+
+<script>
+    var intro = "Hi, I'm Matt. \n \n " + "<br>" + "My portfolio is under construction at the moment, \n \n but feel free to check me out on these websites:";
+    var intro_indexed = intro.split(" ");
+    console.log(intro_indexed.length);
+
+    var showIcons = function () {
+        $('.siteNav-social').show(100).animate(5000);
+    };
+
+    var hideIcons = function () {
+        $('.siteNav-social').hide();
+    }
+
+    var showText = function (target, message, index, interval) {
+        if (index<message.length) {
+            $(target).append(message[index++] + " ");
+            setTimeout(function () {
+                showText(target, message, index, interval);
+            }, interval);
+        }
+        if (index == message.length) {
+            showIcons();
+        }
+    };
+
+
+    $(function () {
+        hideIcons();
+        showText("#intro", intro_indexed, 0, 10);
+
+    });
+
+    window.onload = function () {
+        var anchors = document.getElementsByTagName('a');
+        for (var i = 0; i<anchors.length; i++) {
+            anchors[i].setAttribute('target', '_blank');
+        }
+    }
+</script>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>024</title>
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
-            integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:700' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,10 +16,13 @@
         color: #0b0b0b;
     }
 
+    h1 {
+        font-size: 35px;
+    }
+
     #intro {
         width: 400px;
         height: 600px;
-
         position: absolute;
         top: 50%;
         left: 50%;
@@ -53,58 +56,61 @@
         color: #000;
     }
 </style>
+
 <body>
-<div id="intro"></div>
-<div class="siteNav">
-    <ul class="siteNav-social">
-        <li>
-            <a href="https://www.facebook.com/matveytn">
-                <i class="fa fa-facebook"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://twitter.com/matveytn">
-                <i class="fa fa-twitter"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://nz.linkedin.com/in/matveytn">
-                <i class="fa fa-linkedin"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/DG777">
-                <i class="fa fa-github"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://stackoverflow.com/users/5295787/dg777">
-                <i class="fa fa-stack-overflow"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://www.behance.net/dg777">
-                <i class="fa fa-behance"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/matveytn/">
-                <i class="fa fa-instagram"></i>
-            </a>
-        </li>
-    </ul>
-</div>
+    <div>
+        <h1 id="intro"></h1></div>
+    <div class="siteNav">
+        <ul class="siteNav-social">
+            <li>
+                <a href="https://www.facebook.com/matveytn">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/matveytn">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://nz.linkedin.com/in/matveytn">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/DG777">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://stackoverflow.com/users/5295787/dg777">
+                    <i class="fa fa-stack-overflow"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.behance.net/dg777">
+                    <i class="fa fa-behance"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/matveytn/">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
 </body>
 
 </html>
 
 <script>
-    var intro = "Hi, I'm Matt. \n \n My portfolio is under construction at the moment, \n \n but feel free to check me out on these websites:";
+    var intro = "Hi, I'm Matt. \n \n \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 My portfolio is under construction at the moment, \n \n but feel free to check me out on these websites:";
     var intro_indexed = intro.split("");
-    console.log(intro_indexed.length);
 
     var showIcons = function () {
-        $('.siteNav-social').show().animate({opacity: 1}, 1200);
+        $('.siteNav-social').show().animate({
+            opacity: 1
+        }, 1200);
     };
 
     var hideIcons = function () {
@@ -112,7 +118,7 @@
     }
 
     var showText = function (target, message, index, interval) {
-        if (index<message.length) {
+        if (index < message.length) {
             $(target).append(message[index++]);
             setTimeout(function () {
                 showText(target, message, index, interval);
@@ -125,14 +131,13 @@
 
 
     $(function () {
-//        hideIcons();
-        showText("#intro", intro_indexed, 0, 30);
+        showText("#intro", intro_indexed, 0, 20);
 
     });
 
     window.onload = function () {
         var anchors = document.getElementsByTagName('a');
-        for (var i = 0; i<anchors.length; i++) {
+        for (var i = 0; i < anchors.length; i++) {
             anchors[i].setAttribute('target', '_blank');
         }
     }

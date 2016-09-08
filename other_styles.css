@@ -81,3 +81,40 @@
          font-size: 40px;
      }
  }
+
+
+.temp, .temp a {
+    -webkit-animation: color_change 2s infinite alternate;
+    -moz-animation: color_change 2s infinite alternate;
+    -ms-animation: color_change 2s infinite alternate;
+    -o-animation: color_change 2s infinite alternate;
+    animation: color_change 2s infinite alternate;
+    text-decoration: none;
+}
+
+.temp {
+    margin: 2% 0 0 3%;
+}
+
+
+
+@-webkit-keyframes color_change {
+    from { color: #58c2fa; }
+    to { color: #2f9a2f; }
+}
+@-moz-keyframes color_change {
+    from { color: #58c2fa; }
+    to { color: #2f9a2f; }
+}
+@-ms-keyframes color_change {
+    from { color: #58c2fa; }
+    to { color: #2f9a2f; }
+}
+@-o-keyframes color_change {
+    from { color: #58c2fa; }
+    to { color: #2f9a2f; }
+}
+@keyframes color_change {
+    from { color: #58c2fa; }
+    to { color: #2f9a2f; }
+}

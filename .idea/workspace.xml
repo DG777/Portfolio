@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b3f2714-4a6e-4860-8124-5c87b4ef826d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,12 +36,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="72">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+              <folding>
+                <marker date="1478035026099" expanded="true" signature="1296:1453" ph="..." />
+                <marker date="1478035026099" expanded="true" signature="1358:1421" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,10 +75,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/web.config" />
         <option value="$PROJECT_DIR$/creativeAudio/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -216,7 +229,7 @@
       <workItem from="1471766659899" duration="18000" />
       <workItem from="1477355426863" duration="1331000" />
       <workItem from="1477367613497" duration="43000" />
-      <workItem from="1478034430242" duration="165000" />
+      <workItem from="1478034430242" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="Added a creative audio project">
       <created>1477355606083</created>
@@ -253,11 +266,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478034581749</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated gitignore&#10;">
+      <created>1478034600602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1478034600602</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11455000" />
+    <option name="totallyTimeSpent" value="11886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1924" height="1060" extended-state="0" />
@@ -342,7 +362,8 @@
     <MESSAGE value="Added creative Audio project again, config in Azure&#10;" />
     <MESSAGE value="Deleted old files" />
     <MESSAGE value="Added new files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new files" />
+    <MESSAGE value="updated gitignore&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated gitignore&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -524,14 +545,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/index.html.temp" />
     <entry file="file://$PROJECT_DIR$/web.config" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="96" selection-start-line="22" selection-start-column="96" selection-end-line="22" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/creativeAudio/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12342">
@@ -550,9 +563,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+          <folding>
+            <marker date="1478035026099" expanded="true" signature="1296:1453" ph="..." />
+            <marker date="1478035026099" expanded="true" signature="1358:1421" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -2,92 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b3f2714-4a6e-4860-8124-5c87b4ef826d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/firebase-debug.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/EdwardianScriptITC.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/EdwardianScriptITC.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/EdwardianScriptITC.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/EdwardianScriptITC.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-Book.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-Book.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-Book.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-Book.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-BookOblique.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-BookOblique.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-BookOblique.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-BookOblique.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-Heavy.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-Heavy.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-Heavy.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-Heavy.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-HeavyOblique.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-HeavyOblique.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-HeavyOblique.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/FuturaStd-HeavyOblique.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/apple-touch-icon-114x114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/apple-touch-icon-120x120.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/apple-touch-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/apple-touch-icon-152x152.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/apple-touch-icon-57x57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/apple-touch-icon-60x60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/apple-touch-icon-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/apple-touch-icon-76x76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/favicon-128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/favicon-16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/favicon-196x196.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/favicon-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/favicon-96x96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/mstile-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/mstile-150x150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/mstile-310x150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/mstile-310x310.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Favicons/mstile-70x70.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/PodlinkMP4.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/behance.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/in_vertigo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/in_vertigo_color.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/index_background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/line_racer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/line_racer_color.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/me.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/me.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/podlink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/podlink1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/podlink2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/podlink3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/podlinkV.webm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/telephony.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/telephony_slides/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/telephony_slides/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/telephony_slides/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/telephony_slides/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/telephony_slides/05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/telephony_slides/IMG_1234.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/telephony_slides/IMG_1249.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/telephony_slides/IMG_1259.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/telephony_slides/IMG_1261.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/telephony_slides/IMG_1275.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tumblr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/in_vertigo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index_temp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/line_racer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/other_styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/podlink.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/telephony.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unslider-dots.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unslider.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/concept.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/context.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tile-wide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ai.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/browserconfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crossdomain.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/projects.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/TOC.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/css.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/extend.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/faq.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/html.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/js.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/misc.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/usage.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flattie.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/humans.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/dynamicpage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/modernizr-2.8.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Portfolio.iws" />
@@ -124,8 +73,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="36">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -301,7 +250,7 @@
       <workItem from="1471766659899" duration="18000" />
       <workItem from="1477355426863" duration="1331000" />
       <workItem from="1477367613497" duration="43000" />
-      <workItem from="1478034430242" duration="92000" />
+      <workItem from="1478034430242" duration="141000" />
     </task>
     <task id="LOCAL-00001" summary="Added a creative audio project">
       <created>1477355606083</created>
@@ -324,11 +273,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477356150722</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Deleted old files">
+      <created>1478034529159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1478034529159</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11382000" />
+    <option name="totallyTimeSpent" value="11431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1924" height="1060" extended-state="0" />
@@ -411,7 +367,8 @@
     <MESSAGE value="Added a creative audio project" />
     <MESSAGE value="deleted web config" />
     <MESSAGE value="Added creative Audio project again, config in Azure&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added creative Audio project again, config in Azure&#10;" />
+    <MESSAGE value="Deleted old files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted old files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -619,8 +576,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>

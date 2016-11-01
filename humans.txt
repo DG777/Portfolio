@@ -1,0 +1,14 @@
+/* TEAM */
+
+Name: Matvey Tarchutkin
+Twitter: @matveytn
+Location: Auckland, NZ
+From: Novosibirsk, Russia
+
+
+
+/* SITE */
+
+Standards: HTML5, CSS3
+Components: Modernizr, jQuery
+IDE: Webstorm
